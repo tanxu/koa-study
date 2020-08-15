@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node src/index"
+    "start": "nodemon --exec babel-node src/index",
+    "webpack-debug": "node --inspect-brk ./node_modules/.bin/webpack --inline --progress"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "koa": "^2.13.0",
     "koa-body": "^4.2.0",
     "koa-combine-routers": "^4.0.2",
+    "koa-compose": "^4.1.0",
     "koa-helmet": "^5.2.0",
     "koa-json": "^2.0.2",
     "koa-router": "^9.4.0",
